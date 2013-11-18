@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD559B41839F850007D05AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B31839F850007D05AB /* Foundation.framework */; };
+		2FD559B61839F850007D05AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B51839F850007D05AB /* CoreGraphics.framework */; };
+		2FD559B81839F850007D05AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B71839F850007D05AB /* UIKit.framework */; };
+		2FD559BE1839F850007D05AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559BC1839F850007D05AB /* InfoPlist.strings */; };
+		2FD559C01839F850007D05AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559BF1839F850007D05AB /* main.m */; };
+		2FD559C41839F850007D05AB /* MentirosaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */; };
+		2FD559C71839F850007D05AB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559C51839F850007D05AB /* Main_iPhone.storyboard */; };
+		2FD559CA1839F850007D05AB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559C81839F850007D05AB /* Main_iPad.storyboard */; };
+		2FD559CD1839F850007D05AB /* MentirosaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559CC1839F850007D05AB /* MentirosaViewController.m */; };
+		2FD559CF1839F850007D05AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559CE1839F850007D05AB /* Images.xcassets */; };
+		2FD559D61839F850007D05AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559D51839F850007D05AB /* XCTest.framework */; };
+		2FD559D71839F850007D05AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B31839F850007D05AB /* Foundation.framework */; };
+		2FD559D81839F850007D05AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B71839F850007D05AB /* UIKit.framework */; };
+		2FD559E01839F850007D05AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559DE1839F850007D05AB /* InfoPlist.strings */; };
+		2FD559E21839F850007D05AB /* MentirosaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559E11839F850007D05AB /* MentirosaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD559D91839F850007D05AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD559A81839F850007D05AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD559AF1839F850007D05AB;
+			remoteInfo = Mentirosa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD559B01839F850007D05AB /* Mentirosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentirosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD559B31839F850007D05AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FD559B51839F850007D05AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FD559B71839F850007D05AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FD559BB1839F850007D05AB /* Mentirosa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mentirosa-Info.plist"; sourceTree = "<group>"; };
+		2FD559BD1839F850007D05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD559BF1839F850007D05AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD559C11839F850007D05AB /* Mentirosa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mentirosa-Prefix.pch"; sourceTree = "<group>"; };
+		2FD559C21839F850007D05AB /* MentirosaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentirosaAppDelegate.h; sourceTree = "<group>"; };
+		2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaAppDelegate.m; sourceTree = "<group>"; };
+		2FD559C61839F850007D05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2FD559C91839F850007D05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2FD559CB1839F850007D05AB /* MentirosaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentirosaViewController.h; sourceTree = "<group>"; };
+		2FD559CC1839F850007D05AB /* MentirosaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaViewController.m; sourceTree = "<group>"; };
+		2FD559CE1839F850007D05AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FD559D41839F850007D05AB /* MentirosaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentirosaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD559D51839F850007D05AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FD559DD1839F850007D05AB /* MentirosaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MentirosaTests-Info.plist"; sourceTree = "<group>"; };
+		2FD559DF1839F850007D05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD559E11839F850007D05AB /* MentirosaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD559AD1839F850007D05AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559B61839F850007D05AB /* CoreGraphics.framework in Frameworks */,
+				2FD559B81839F850007D05AB /* UIKit.framework in Frameworks */,
+				2FD559B41839F850007D05AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD559D11839F850007D05AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559D61839F850007D05AB /* XCTest.framework in Frameworks */,
+				2FD559D81839F850007D05AB /* UIKit.framework in Frameworks */,
+				2FD559D71839F850007D05AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD559A71839F850007D05AB = {
+			isa = PBXGroup;
+			children = (
+				2FD559B91839F850007D05AB /* Mentirosa */,
+				2FD559DB1839F850007D05AB /* MentirosaTests */,
+				2FD559B21839F850007D05AB /* Frameworks */,
+				2FD559B11839F850007D05AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD559B11839F850007D05AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559B01839F850007D05AB /* Mentirosa.app */,
+				2FD559D41839F850007D05AB /* MentirosaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD559B21839F850007D05AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559B31839F850007D05AB /* Foundation.framework */,
+				2FD559B51839F850007D05AB /* CoreGraphics.framework */,
+				2FD559B71839F850007D05AB /* UIKit.framework */,
+				2FD559D51839F850007D05AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD559B91839F850007D05AB /* Mentirosa */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559C21839F850007D05AB /* MentirosaAppDelegate.h */,
+				2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */,
+				2FD559C51839F850007D05AB /* Main_iPhone.storyboard */,
+				2FD559C81839F850007D05AB /* Main_iPad.storyboard */,
+				2FD559CB1839F850007D05AB /* MentirosaViewController.h */,
+				2FD559CC1839F850007D05AB /* MentirosaViewController.m */,
+				2FD559CE1839F850007D05AB /* Images.xcassets */,
+				2FD559BA1839F850007D05AB /* Supporting Files */,
+			);
+			path = Mentirosa;
+			sourceTree = "<group>";
+		};
+		2FD559BA1839F850007D05AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559BB1839F850007D05AB /* Mentirosa-Info.plist */,
+				2FD559BC1839F850007D05AB /* InfoPlist.strings */,
+				2FD559BF1839F850007D05AB /* main.m */,
+				2FD559C11839F850007D05AB /* Mentirosa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD559DB1839F850007D05AB /* MentirosaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559E11839F850007D05AB /* MentirosaTests.m */,
+				2FD559DC1839F850007D05AB /* Supporting Files */,
+			);
+			path = MentirosaTests;
+			sourceTree = "<group>";
+		};
+		2FD559DC1839F850007D05AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD559DD1839F850007D05AB /* MentirosaTests-Info.plist */,
+				2FD559DE1839F850007D05AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD559AF1839F850007D05AB /* Mentirosa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD559E51839F850007D05AB /* Build configuration list for PBXNativeTarget "Mentirosa" */;
+			buildPhases = (
+				2FD559AC1839F850007D05AB /* Sources */,
+				2FD559AD1839F850007D05AB /* Frameworks */,
+				2FD559AE1839F850007D05AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mentirosa;
+			productName = Mentirosa;
+			productReference = 2FD559B01839F850007D05AB /* Mentirosa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD559D31839F850007D05AB /* MentirosaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD559E81839F850007D05AB /* Build configuration list for PBXNativeTarget "MentirosaTests" */;
+			buildPhases = (
+				2FD559D01839F850007D05AB /* Sources */,
+				2FD559D11839F850007D05AB /* Frameworks */,
+				2FD559D21839F850007D05AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD559DA1839F850007D05AB /* PBXTargetDependency */,
+			);
+			name = MentirosaTests;
+			productName = MentirosaTests;
+			productReference = 2FD559D41839F850007D05AB /* MentirosaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD559A81839F850007D05AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mentirosa;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Santiago;
+				TargetAttributes = {
+					2FD559D31839F850007D05AB = {
+						TestTargetID = 2FD559AF1839F850007D05AB;
+					};
+				};
+			};
+			buildConfigurationList = 2FD559AB1839F850007D05AB /* Build configuration list for PBXProject "Mentirosa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD559A71839F850007D05AB;
+			productRefGroup = 2FD559B11839F850007D05AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD559AF1839F850007D05AB /* Mentirosa */,
+				2FD559D31839F850007D05AB /* MentirosaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD559AE1839F850007D05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559CA1839F850007D05AB /* Main_iPad.storyboard in Resources */,
+				2FD559CF1839F850007D05AB /* Images.xcassets in Resources */,
+				2FD559C71839F850007D05AB /* Main_iPhone.storyboard in Resources */,
+				2FD559BE1839F850007D05AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD559D21839F850007D05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559E01839F850007D05AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD559AC1839F850007D05AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559C01839F850007D05AB /* main.m in Sources */,
+				2FD559C41839F850007D05AB /* MentirosaAppDelegate.m in Sources */,
+				2FD559CD1839F850007D05AB /* MentirosaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD559D01839F850007D05AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD559E21839F850007D05AB /* MentirosaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD559DA1839F850007D05AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD559AF1839F850007D05AB /* Mentirosa */;
+			targetProxy = 2FD559D91839F850007D05AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD559BC1839F850007D05AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD559BD1839F850007D05AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FD559C51839F850007D05AB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD559C61839F850007D05AB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD559C81839F850007D05AB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD559C91839F850007D05AB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD559DE1839F850007D05AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD559DF1839F850007D05AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD559E31839F850007D05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD559E41839F850007D05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD559E61839F850007D05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
+				INFOPLIST_FILE = "Mentirosa/Mentirosa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FD559E71839F850007D05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
+				INFOPLIST_FILE = "Mentirosa/Mentirosa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FD559E91839F850007D05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mentirosa.app/Mentirosa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MentirosaTests/MentirosaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FD559EA1839F850007D05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mentirosa.app/Mentirosa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
+				INFOPLIST_FILE = "MentirosaTests/MentirosaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD559AB1839F850007D05AB /* Build configuration list for PBXProject "Mentirosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD559E31839F850007D05AB /* Debug */,
+				2FD559E41839F850007D05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD559E51839F850007D05AB /* Build configuration list for PBXNativeTarget "Mentirosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD559E61839F850007D05AB /* Debug */,
+				2FD559E71839F850007D05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FD559E81839F850007D05AB /* Build configuration list for PBXNativeTarget "MentirosaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD559E91839F850007D05AB /* Debug */,
+				2FD559EA1839F850007D05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD559A81839F850007D05AB /* Project object */;
+}
