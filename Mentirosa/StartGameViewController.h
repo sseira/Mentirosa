@@ -1,5 +1,5 @@
 //
-//  MentirosaViewController.h
+//  StartGameViewController.h
 //  Mentirosa
 //
 //  Created by Santiago Seira on 11/17/13.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Game.h"
+#import "Player.h"
+#import "Dice.h"
 
-@interface MentirosaViewController : UIViewController
+@interface StartGameViewController : UIViewController
 
 @end

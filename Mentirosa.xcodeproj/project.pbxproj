@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F11AD32185106F90087B786 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F11AD30185106F90087B786 /* Main_iPhone.storyboard */; };
+		2F11AD35185123AA0087B786 /* ChooseLieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11AD34185123AA0087B786 /* ChooseLieViewController.m */; };
+		2F222C07183ED3FE008CE088 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F222C06183ED3FE008CE088 /* Game.m */; };
+		2F222C0A183ED4A1008CE088 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F222C09183ED4A1008CE088 /* Dice.m */; };
+		2F222C0D183ED506008CE088 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F222C0C183ED506008CE088 /* Player.m */; };
+		2F52652B1846FE19005D9C72 /* DecisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52652A1846FE19005D9C72 /* DecisionViewController.m */; };
+		2F52652E184729C4005D9C72 /* EndTurnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52652D184729C4005D9C72 /* EndTurnViewController.m */; };
 		2FD559B41839F850007D05AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B31839F850007D05AB /* Foundation.framework */; };
 		2FD559B61839F850007D05AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B51839F850007D05AB /* CoreGraphics.framework */; };
 		2FD559B81839F850007D05AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B71839F850007D05AB /* UIKit.framework */; };
 		2FD559BE1839F850007D05AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559BC1839F850007D05AB /* InfoPlist.strings */; };
 		2FD559C01839F850007D05AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559BF1839F850007D05AB /* main.m */; };
 		2FD559C41839F850007D05AB /* MentirosaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */; };
-		2FD559C71839F850007D05AB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559C51839F850007D05AB /* Main_iPhone.storyboard */; };
-		2FD559CA1839F850007D05AB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559C81839F850007D05AB /* Main_iPad.storyboard */; };
-		2FD559CD1839F850007D05AB /* MentirosaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559CC1839F850007D05AB /* MentirosaViewController.m */; };
 		2FD559CF1839F850007D05AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559CE1839F850007D05AB /* Images.xcassets */; };
 		2FD559D61839F850007D05AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559D51839F850007D05AB /* XCTest.framework */; };
 		2FD559D71839F850007D05AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B31839F850007D05AB /* Foundation.framework */; };
 		2FD559D81839F850007D05AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD559B71839F850007D05AB /* UIKit.framework */; };
 		2FD559E01839F850007D05AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD559DE1839F850007D05AB /* InfoPlist.strings */; };
 		2FD559E21839F850007D05AB /* MentirosaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559E11839F850007D05AB /* MentirosaTests.m */; };
+		2FD559F01839FA21007D05AB /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD559EF1839FA21007D05AB /* StartGameViewController.m */; };
+		2FEA4F8C1859461B00F10239 /* InstructionsScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA4F8B1859461B00F10239 /* InstructionsScrollViewController.m */; };
+		2FFE464618441270007E837D /* RollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE464518441270007E837D /* RollViewController.m */; };
+		2FFE464918441CC2007E837D /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE464818441CC2007E837D /* DieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F11AD31185106F90087B786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2F11AD33185123AA0087B786 /* ChooseLieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLieViewController.h; sourceTree = "<group>"; };
+		2F11AD34185123AA0087B786 /* ChooseLieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLieViewController.m; sourceTree = "<group>"; };
+		2F222C05183ED3FE008CE088 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2F222C06183ED3FE008CE088 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		2F222C08183ED4A1008CE088 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		2F222C09183ED4A1008CE088 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		2F222C0B183ED506008CE088 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2F222C0C183ED506008CE088 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2F5265291846FE19005D9C72 /* DecisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecisionViewController.h; path = ../DecisionViewController.h; sourceTree = "<group>"; };
+		2F52652A1846FE19005D9C72 /* DecisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecisionViewController.m; path = ../DecisionViewController.m; sourceTree = "<group>"; };
+		2F52652C184729C4005D9C72 /* EndTurnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndTurnViewController.h; sourceTree = "<group>"; };
+		2F52652D184729C4005D9C72 /* EndTurnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndTurnViewController.m; sourceTree = "<group>"; };
 		2FD559B01839F850007D05AB /* Mentirosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentirosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD559B31839F850007D05AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2FD559B51839F850007D05AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,16 +66,20 @@
 		2FD559C11839F850007D05AB /* Mentirosa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mentirosa-Prefix.pch"; sourceTree = "<group>"; };
 		2FD559C21839F850007D05AB /* MentirosaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentirosaAppDelegate.h; sourceTree = "<group>"; };
 		2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaAppDelegate.m; sourceTree = "<group>"; };
-		2FD559C61839F850007D05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2FD559C91839F850007D05AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2FD559CB1839F850007D05AB /* MentirosaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentirosaViewController.h; sourceTree = "<group>"; };
-		2FD559CC1839F850007D05AB /* MentirosaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaViewController.m; sourceTree = "<group>"; };
 		2FD559CE1839F850007D05AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2FD559D41839F850007D05AB /* MentirosaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentirosaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD559D51839F850007D05AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2FD559DD1839F850007D05AB /* MentirosaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MentirosaTests-Info.plist"; sourceTree = "<group>"; };
 		2FD559DF1839F850007D05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2FD559E11839F850007D05AB /* MentirosaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentirosaTests.m; sourceTree = "<group>"; };
+		2FD559EE1839FA21007D05AB /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameViewController.h; sourceTree = "<group>"; };
+		2FD559EF1839FA21007D05AB /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameViewController.m; sourceTree = "<group>"; };
+		2FEA4F8A1859461B00F10239 /* InstructionsScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsScrollViewController.h; sourceTree = "<group>"; };
+		2FEA4F8B1859461B00F10239 /* InstructionsScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsScrollViewController.m; sourceTree = "<group>"; };
+		2FFE464418441270007E837D /* RollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollViewController.h; sourceTree = "<group>"; };
+		2FFE464518441270007E837D /* RollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollViewController.m; sourceTree = "<group>"; };
+		2FFE464718441CC2007E837D /* DieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		2FFE464818441CC2007E837D /* DieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +109,12 @@
 		2FD559A71839F850007D05AB = {
 			isa = PBXGroup;
 			children = (
+				2F222C05183ED3FE008CE088 /* Game.h */,
+				2F222C06183ED3FE008CE088 /* Game.m */,
+				2F222C08183ED4A1008CE088 /* Dice.h */,
+				2F222C09183ED4A1008CE088 /* Dice.m */,
+				2F222C0B183ED506008CE088 /* Player.h */,
+				2F222C0C183ED506008CE088 /* Player.m */,
 				2FD559B91839F850007D05AB /* Mentirosa */,
 				2FD559DB1839F850007D05AB /* MentirosaTests */,
 				2FD559B21839F850007D05AB /* Frameworks */,
@@ -114,12 +145,23 @@
 		2FD559B91839F850007D05AB /* Mentirosa */ = {
 			isa = PBXGroup;
 			children = (
+				2FEA4F8A1859461B00F10239 /* InstructionsScrollViewController.h */,
+				2FEA4F8B1859461B00F10239 /* InstructionsScrollViewController.m */,
+				2F5265291846FE19005D9C72 /* DecisionViewController.h */,
+				2F52652A1846FE19005D9C72 /* DecisionViewController.m */,
+				2FD559EE1839FA21007D05AB /* StartGameViewController.h */,
+				2FD559EF1839FA21007D05AB /* StartGameViewController.m */,
 				2FD559C21839F850007D05AB /* MentirosaAppDelegate.h */,
 				2FD559C31839F850007D05AB /* MentirosaAppDelegate.m */,
-				2FD559C51839F850007D05AB /* Main_iPhone.storyboard */,
-				2FD559C81839F850007D05AB /* Main_iPad.storyboard */,
-				2FD559CB1839F850007D05AB /* MentirosaViewController.h */,
-				2FD559CC1839F850007D05AB /* MentirosaViewController.m */,
+				2F52652C184729C4005D9C72 /* EndTurnViewController.h */,
+				2F52652D184729C4005D9C72 /* EndTurnViewController.m */,
+				2F11AD33185123AA0087B786 /* ChooseLieViewController.h */,
+				2F11AD34185123AA0087B786 /* ChooseLieViewController.m */,
+				2FFE464418441270007E837D /* RollViewController.h */,
+				2FFE464518441270007E837D /* RollViewController.m */,
+				2FFE464718441CC2007E837D /* DieView.h */,
+				2FFE464818441CC2007E837D /* DieView.m */,
+				2F11AD30185106F90087B786 /* Main_iPhone.storyboard */,
 				2FD559CE1839F850007D05AB /* Images.xcassets */,
 				2FD559BA1839F850007D05AB /* Supporting Files */,
 			);
@@ -232,9 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD559CA1839F850007D05AB /* Main_iPad.storyboard in Resources */,
+				2F11AD32185106F90087B786 /* Main_iPhone.storyboard in Resources */,
 				2FD559CF1839F850007D05AB /* Images.xcassets in Resources */,
-				2FD559C71839F850007D05AB /* Main_iPhone.storyboard in Resources */,
 				2FD559BE1839F850007D05AB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +295,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F222C0A183ED4A1008CE088 /* Dice.m in Sources */,
+				2F52652E184729C4005D9C72 /* EndTurnViewController.m in Sources */,
+				2FEA4F8C1859461B00F10239 /* InstructionsScrollViewController.m in Sources */,
+				2F52652B1846FE19005D9C72 /* DecisionViewController.m in Sources */,
+				2FFE464918441CC2007E837D /* DieView.m in Sources */,
+				2FD559F01839FA21007D05AB /* StartGameViewController.m in Sources */,
 				2FD559C01839F850007D05AB /* main.m in Sources */,
+				2F11AD35185123AA0087B786 /* ChooseLieViewController.m in Sources */,
 				2FD559C41839F850007D05AB /* MentirosaAppDelegate.m in Sources */,
-				2FD559CD1839F850007D05AB /* MentirosaViewController.m in Sources */,
+				2FFE464618441270007E837D /* RollViewController.m in Sources */,
+				2F222C0D183ED506008CE088 /* Player.m in Sources */,
+				2F222C07183ED3FE008CE088 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,28 +329,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2F11AD30185106F90087B786 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F11AD31185106F90087B786 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
 		2FD559BC1839F850007D05AB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2FD559BD1839F850007D05AB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2FD559C51839F850007D05AB /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FD559C61839F850007D05AB /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		2FD559C81839F850007D05AB /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FD559C91839F850007D05AB /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		2FD559DE1839F850007D05AB /* InfoPlist.strings */ = {
@@ -396,7 +438,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
 				INFOPLIST_FILE = "Mentirosa/Mentirosa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,7 +453,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mentirosa/Mentirosa-Prefix.pch";
 				INFOPLIST_FILE = "Mentirosa/Mentirosa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +521,7 @@
 				2FD559E71839F850007D05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FD559E81839F850007D05AB /* Build configuration list for PBXNativeTarget "MentirosaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +530,7 @@
 				2FD559EA1839F850007D05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
